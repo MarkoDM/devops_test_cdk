@@ -1,0 +1,17 @@
+{
+  "awsAccountId": "<accountId>",
+  "region": "<region>",
+  "projects": [
+    {
+      "projectName": "devopstest",
+      "githubOwner": "Freddis",
+      "githubRepo": "devops_test",
+      "branch": "production",
+      "codestarARN": "<codestarARN>",
+      "rootDomainName": "example.com",
+      "domainNames": ["www.example.com", "app.example.com"],
+      "containerName": "nodejs-app-container",
+      "containerPort": 3000
+    }
+  ]
+}
